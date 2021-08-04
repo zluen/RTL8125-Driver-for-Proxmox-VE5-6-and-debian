@@ -87,12 +87,12 @@ apt-get install ${kernel_headers_latest_version} ${kernel_image_latest_version}
 apt-get -y install dkms build-essential make gcc libelf-dev
 
 
-tar vjxf $PWD/r8125-9.003.05.tar.bz2
-#tar vjxf $PWD/r8125-9.005.01.tar.bz2
+#tar vjxf $PWD/r8125-9.003.05.tar.bz2
+tar vjxf $PWD/r8125-9.005.01.tar.bz2
 #tar vjxf $PWD/r8125-9.005.06.tar.bz2
 
-cd r8125-9.003.05
-#cd r8125-9.005.01
+#cd r8125-9.003.05
+cd r8125-9.005.01
 #cd r8125-9.005.06
 
 chmod a+x autorun.sh
